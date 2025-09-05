@@ -4,57 +4,57 @@ import React, { JSX } from "react";
 
 export default function Home(): JSX.Element {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-100">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-pink-50">
       {/* Header */}
       <header className="text-center pt-16 pb-8 px-6">
         <h1
-          className="text-6xl md:text-7xl font-bold text-rose-400 mb-8"
+          className="text-6xl md:text-7xl font-bold text-pink-600 mb-8"
           style={{ fontFamily: "Dancing Script, cursive" }}
         >
-          Nails by Andrea
+          Nails by Salma
         </h1>
 
         {/* Social Media Links */}
         <div className="flex justify-center items-center gap-8 mb-6">
           <div className="flex items-center gap-2">
             <svg
-              className="w-6 h-6 text-rose-400"
+              className="w-6 h-6 text-pink-500"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
               <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
             </svg>
-            <span className="text-gray-600 text-lg">Nailsbyandrrea</span>
+            <span className="text-slate-600 text-lg">Nailsbysalma</span>
           </div>
           <div className="flex items-center gap-2">
             <svg
-              className="w-6 h-6 text-rose-400"
+              className="w-6 h-6 text-pink-500"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
               <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-.04 0z" />
             </svg>
-            <span className="text-gray-600 text-lg">Nailbyandrea</span>
+            <span className="text-slate-600 text-lg">Nailsbysalma</span>
           </div>
         </div>
 
-        <p className="text-gray-500 text-lg">
+        <p className="text-slate-500 text-lg">
           Licensed Private NailTech Location Algonquin IL
         </p>
       </header>
 
       {/* Meet Your Nail Tech Section */}
       <section className="max-w-4xl mx-auto px-6 mb-16">
-        <div className="bg-white/60 backdrop-blur-sm border-4 border-rose-200 rounded-3xl p-8">
-          <div className="flex items-center gap-4 mb-6">
+        <div className="bg-white/80 backdrop-blur-sm border-2 border-pink-200 rounded-3xl p-8 shadow-lg">
+          <div className="flex items-center gap-4 mb-6 justify-center">
             <h2
-              className="text-4xl font-bold text-rose-500"
+              className="text-4xl font-bold text-slate-700"
               style={{ fontFamily: "serif" }}
             >
               MEET YOUR
             </h2>
             <span
-              className="text-4xl font-script text-rose-400"
+              className="text-4xl font-script text-pink-600"
               style={{ fontFamily: "Dancing Script, cursive" }}
             >
               Nail Tech
@@ -63,24 +63,24 @@ export default function Home(): JSX.Element {
 
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-shrink-0">
-              <div className="w-48 h-48 rounded-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center overflow-hidden">
-                <div className="w-40 h-40 bg-rose-100 rounded-full flex items-center justify-center">
-                  <span className="text-rose-400 text-xl font-semibold">
-                    Andrea
+              <div className="w-48 h-48 rounded-full bg-gradient-to-br from-pink-100 to-pink-200 flex items-center justify-center overflow-hidden shadow-lg">
+                <div className="w-40 h-40 bg-white rounded-full flex items-center justify-center border-2 border-pink-300">
+                  <span className="text-pink-600 text-xl font-semibold">
+                    Salma
                   </span>
                 </div>
               </div>
             </div>
 
             <div className="flex-1 text-center md:text-left">
-              <p className="text-rose-600 text-lg leading-relaxed mb-4">
-                Hi I'm Andrea I am a private home based Licensed nail tech
+              <p className="text-slate-700 text-lg leading-relaxed mb-4">
+                Hi I'm Salma! I am a private home based Licensed nail tech
                 located in Algonquin IL. Doing nails is my passion and my goal
                 is to make every person who sits in my chair feel beautiful and
                 confident with their nails!
               </p>
 
-              <p className="text-rose-500 text-sm">
+              <p className="text-slate-600 text-sm">
                 I provide a clean comfortable space with sanitized items for
                 every client, large variety of colors and nail charms as well as
                 high quality products.
@@ -89,19 +89,54 @@ export default function Home(): JSX.Element {
           </div>
         </div>
       </section>
+      <section className="max-w-3xl mx-auto px-6 pb-16">
+        <div className="bg-white/80 backdrop-blur-sm border-2 border-pink-200 rounded-3xl p-8 text-center shadow-lg">
+          <h3 className="text-2xl font-bold text-slate-700 mb-6">
+            Lets Get Started!
+          </h3>
+          <p className="text-slate-600 mb-6">
+            Contact me directly to schedule your appointment
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:+254794548718"
+              className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
+            >
+              Call Now
+            </a>
+            <a
+              href="https://wa.me/254794548718"
+              target="_blank"
+              rel="noreferrer"
+              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
+            >
+              WhatsApp
+            </a>
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
+            >
+              Instagram DM
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Booking Policies Section */}
       <section className="max-w-5xl mx-auto px-6 mb-16">
-        <div className="bg-white/60 backdrop-blur-sm border-4 border-rose-200 rounded-3xl p-8">
+        <div className="bg-white/80 backdrop-blur-sm border-2 border-pink-200 rounded-3xl p-8 shadow-lg">
           <div className="flex items-center gap-4 mb-8 justify-center">
             <h2
-              className="text-4xl font-bold text-rose-500"
+              className="text-4xl font-bold text-slate-700"
               style={{ fontFamily: "serif" }}
             >
               BOOKING
             </h2>
             <span
-              className="text-4xl font-script text-rose-400"
+              className="text-4xl font-script text-pink-600"
               style={{ fontFamily: "Dancing Script, cursive" }}
             >
               Policies
@@ -111,17 +146,17 @@ export default function Home(): JSX.Element {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Payment Policy */}
             <div className="text-center">
-              <div className="w-20 h-20 mx-auto mb-4 bg-rose-100 rounded-full flex items-center justify-center">
+              <div className="w-20 h-20 mx-auto mb-4 bg-pink-50 rounded-full flex items-center justify-center border-2 border-pink-200">
                 <svg
-                  className="w-10 h-10 text-rose-500"
+                  className="w-10 h-10 text-pink-600"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-rose-600 mb-2">PAYMENT</h3>
-              <div className="text-sm text-gray-700 space-y-1">
+              <h3 className="text-xl font-bold text-slate-700 mb-2">PAYMENT</h3>
+              <div className="text-sm text-slate-600 space-y-1">
                 <p>$15 non-refundable</p>
                 <p>deposit is required.</p>
                 <p>Remaining balance in</p>
@@ -131,20 +166,22 @@ export default function Home(): JSX.Element {
 
             {/* Cancellation Policy */}
             <div className="text-center">
-              <div className="w-20 h-20 mx-auto mb-4 bg-rose-100 rounded-full flex items-center justify-center">
+              <div className="w-20 h-20 mx-auto mb-4 bg-pink-50 rounded-full flex items-center justify-center border-2 border-pink-200">
                 <svg
-                  className="w-10 h-10 text-rose-500"
+                  className="w-10 h-10 text-pink-600"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9L12 14.5 8.5 11 10 9.5l2 2 4-4L17.5 9z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-rose-600 mb-2">
+              <h3 className="text-xl font-bold text-slate-700 mb-2">
                 CANCELLATION /
               </h3>
-              <h3 className="text-xl font-bold text-rose-600 mb-2">NO SHOWS</h3>
-              <div className="text-sm text-gray-700 space-y-1">
+              <h3 className="text-xl font-bold text-slate-700 mb-2">
+                NO SHOWS
+              </h3>
+              <div className="text-sm text-slate-600 space-y-1">
                 <p>No shows or same</p>
                 <p>day cancellations will</p>
                 <p>be charged a fee and</p>
@@ -154,19 +191,19 @@ export default function Home(): JSX.Element {
 
             {/* Late Arrival Policy */}
             <div className="text-center">
-              <div className="w-20 h-20 mx-auto mb-4 bg-rose-100 rounded-full flex items-center justify-center">
+              <div className="w-20 h-20 mx-auto mb-4 bg-pink-50 rounded-full flex items-center justify-center border-2 border-pink-200">
                 <svg
-                  className="w-10 h-10 text-rose-500"
+                  className="w-10 h-10 text-pink-600"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-rose-600 mb-2">
+              <h3 className="text-xl font-bold text-slate-700 mb-2">
                 LATE ARRIVAL
               </h3>
-              <div className="text-sm text-gray-700 space-y-1">
+              <div className="text-sm text-slate-600 space-y-1">
                 <p>10 min grace period, after 10</p>
                 <p>min there is a $10 fee but at 15</p>
                 <p>min your appt. is cancelled &</p>
@@ -178,17 +215,17 @@ export default function Home(): JSX.Element {
 
             {/* Safety Policy */}
             <div className="text-center">
-              <div className="w-20 h-20 mx-auto mb-4 bg-rose-100 rounded-full flex items-center justify-center">
+              <div className="w-20 h-20 mx-auto mb-4 bg-pink-50 rounded-full flex items-center justify-center border-2 border-pink-200">
                 <svg
-                  className="w-10 h-10 text-rose-500"
+                  className="w-10 h-10 text-pink-600"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-rose-600 mb-2">SAFETY</h3>
-              <div className="text-sm text-gray-700 space-y-1">
+              <h3 className="text-xl font-bold text-slate-700 mb-2">SAFETY</h3>
+              <div className="text-sm text-slate-600 space-y-1">
                 <p>I do not work on open wounds/</p>
                 <p>infected nails.</p>
                 <p>Please come with bare nails.</p>
@@ -204,26 +241,26 @@ export default function Home(): JSX.Element {
 
       {/* Contact Section */}
       <section className="max-w-3xl mx-auto px-6 pb-16">
-        <div className="bg-white/60 backdrop-blur-sm border-4 border-rose-200 rounded-3xl p-8 text-center">
-          <h3 className="text-2xl font-bold text-rose-600 mb-6">
+        <div className="bg-white/80 backdrop-blur-sm border-2 border-pink-200 rounded-3xl p-8 text-center shadow-lg">
+          <h3 className="text-2xl font-bold text-slate-700 mb-6">
             Ready to Book?
           </h3>
-          <p className="text-gray-700 mb-6">
+          <p className="text-slate-600 mb-6">
             Contact me directly to schedule your appointment
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+254700000000"
-              className="bg-rose-500 hover:bg-rose-600 text-white px-8 py-3 rounded-full font-semibold transition-colors"
+              href="tel:+254794548718"
+              className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
             >
               Call Now
             </a>
             <a
-              href="https://wa.me/254700000000"
+              href="https://wa.me/254794548718"
               target="_blank"
               rel="noreferrer"
-              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition-colors"
+              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
             >
               WhatsApp
             </a>
@@ -231,7 +268,7 @@ export default function Home(): JSX.Element {
               href="https://instagram.com/"
               target="_blank"
               rel="noreferrer"
-              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full font-semibold transition-colors"
+              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
             >
               Instagram DM
             </a>
