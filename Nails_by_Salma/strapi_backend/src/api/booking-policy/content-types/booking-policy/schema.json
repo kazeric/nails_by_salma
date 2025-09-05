@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_policies",
+  "info": {
+    "singularName": "booking-policy",
+    "pluralName": "booking-policies",
+    "displayName": "booking-policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "iconType": {
+      "type": "enumeration",
+      "enum": [
+        "payment",
+        "cancellation",
+        "time",
+        "safety"
+      ]
+    }
+  }
+}
