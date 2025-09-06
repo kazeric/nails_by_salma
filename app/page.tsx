@@ -32,20 +32,7 @@ export default function Home(): JSX.Element {
       imageUrl:
         "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=400&h=500&fit=crop",
     },
-    {
-      id: 5,
-      title: "Glitter Design",
-      description: "Sparkly glitter accent nails",
-      imageUrl:
-        "https://images.unsplash.com/photo-1599948128020-9a44d9b8b9e4?w=400&h=500&fit=crop",
-    },
-    {
-      id: 6,
-      title: "Matte Finish",
-      description: "Elegant matte nail polish",
-      imageUrl:
-        "https://images.unsplash.com/photo-1596434267157-deb57fa3d5ac?w=400&h=500&fit=crop",
-    },
+
     {
       id: 7,
       title: "Floral Art",
@@ -60,27 +47,7 @@ export default function Home(): JSX.Element {
       imageUrl:
         "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&h=500&fit=crop",
     },
-    {
-      id: 9,
-      title: "Marble Effect",
-      description: "Stunning marble pattern nails",
-      imageUrl:
-        "https://images.unsplash.com/photo-1606471838103-9b5e6b68e1a4?w=400&h=500&fit=crop",
-    },
-    {
-      id: 10,
-      title: "Crystal Accents",
-      description: "Luxurious crystal embellishments",
-      imageUrl:
-        "https://images.unsplash.com/photo-1588471980393-2c4e5d9de7da?w=400&h=500&fit=crop",
-    },
-    {
-      id: 11,
-      title: "Geometric Design",
-      description: "Modern geometric patterns",
-      imageUrl:
-        "https://images.unsplash.com/photo-1583792550231-79a0e0117bb5?w=400&h=500&fit=crop",
-    },
+
     {
       id: 12,
       title: "Seasonal Special",
