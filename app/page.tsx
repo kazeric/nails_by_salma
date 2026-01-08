@@ -6,54 +6,111 @@ export default function Home(): JSX.Element {
   const [galleryImages] = useState([
     {
       id: 1,
-      title: "French Manicure",
-      description: "Classic French tips with gel polish",
-      imageUrl:
-        "/long_nails/WhatsApp Image 2026-01-08 at 9.28.16 AM.jpeg",
+      title: "Long nails",
+      description: "Elegant Extended Acrylics",
+      imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.16 AM.jpeg",
     },
     {
       id: 2,
-      title: "Gel Extensions",
-      description: "Long lasting gel nail extensions",
-      imageUrl:
-        "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=400&h=500&fit=crop",
+      title: "Medium nails",
+      description: "Botanical Bloom",
+      imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.23.58 AM.jpeg",
     },
     {
       id: 3,
-      title: "Nail Art",
-      description: "Creative custom nail art designs",
-      imageUrl:
-        "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?w=400&h=500&fit=crop",
+      title: "Short nails",
+      description: "Chic & Minimal",
+      imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.09.31 AM.jpeg",
     },
     {
       id: 4,
-      title: "Ombre Nails",
-      description: "Beautiful gradient color blending",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=400&h=500&fit=crop",
+      title: "Long nails",
+      description: "Glamorous Chrome Extensions",
+      imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.17 AM.jpeg",
     },
-
+    {
+      id: 5,
+      title: "Medium nails",
+      description: "Shiny metallic finishes",
+      imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.23.59 AM (1).jpeg",
+    },
+    {
+      id: 6,
+      title: "Short nails",
+      description: "Simple, clean look",
+      imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.09.32 AM.jpeg",
+    },
     {
       id: 7,
-      title: "Floral Art",
-      description: "Hand-painted floral designs",
-      imageUrl:
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=500&fit=crop",
+      title: "toes",
+      description: "Bold pattern design",
+      imageUrl: "toes/WhatsApp Image 2026-01-08 at 9.30.30 AM.jpeg",
     },
     {
       id: 8,
-      title: "Chrome Nails",
-      description: "Mirror finish chrome effect",
-      imageUrl:
-        "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&h=500&fit=crop",
+      title: "Long nails",
+      description: "Sharp, sophisticated style",
+      imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.18 AM.jpeg",
     },
-
+    {
+      id: 9,
+      title: "Medium nails",
+      description: "Botanical Bloom",
+      imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.23.59 AM (2).jpeg",
+    },
+    {
+      id: 10,
+      title: "Short nails",
+      description: "Nude Perfection",
+      imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.09.33 AM.jpeg",
+    },
+    {
+      id: 11,
+      title: "Long nails",
+      description: "Decorated long nails",
+      imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.28 AM (1).jpeg",
+    },
     {
       id: 12,
-      title: "Seasonal Special",
-      description: "Limited time seasonal designs",
-      imageUrl:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=500&fit=crop",
+      title: "Medium nails",
+      description: "Diamond-Studded Elegance",
+      imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.23.59 AM.jpeg",
+    },
+    {
+      id: 13,
+      title: "Short nails",
+      description: "Sparkle & Shine",
+      imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.20.40 AM.jpeg",
+    },
+    {
+      id: 14,
+      title: "toes",
+      description: "Sandy, tropical theme",
+      imageUrl: "toes/WhatsApp Image 2026-01-08 at 9.31.01 AM.jpeg",
+    },
+    {
+      id: 15,
+      title: "Long nails",
+      description: "Mystique Ombré Extensions",
+      imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.28 AM.jpeg",
+    },
+    {
+      id: 16,
+      title: "Medium nails",
+      description: "Nature-inspired nail art",
+      imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.24.00 AM.jpeg",
+    },
+    {
+      id: 17,
+      title: "Short nails",
+      description: "Natural, elegant shade",
+      imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.20.46 AM.jpeg",
+    },
+    {
+      id: 18,
+      title: "toes",
+      description: "Summer Vibes Pedicure",
+      imageUrl: "toes/WhatsApp Image 2026-01-08 at 9.31.04 AM.jpeg",
     },
   ]);
 
@@ -131,13 +188,13 @@ export default function Home(): JSX.Element {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-shrink-0">
               <div className="w-48 h-48 rounded-full bg-gradient-to-br from-pink-100 to-pink-200 flex items-center justify-center overflow-hidden shadow-lg">
-                <div className="w-40 h-40 bg-white rounded-full flex items-center justify-center border-2 border-pink-300">
+               
                   <img
-                    src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=500&fit=crop"
+                    src="WhatsApp Image 2026-01-08 at 9.59.23 AM.jpeg"
                     alt="Me"
-                    className=""
+                    className="w-full h-full object-cover"
                   />
-                </div>
+        
               </div>
             </div>
 
