@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
       title: "French Manicure",
       description: "Classic French tips with gel polish",
       imageUrl:
-        "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=500&fit=crop",
+        "/long_nails/WhatsApp Image 2026-01-08 at 9.28.16 AM.jpeg",
     },
     {
       id: 2,
@@ -82,7 +82,7 @@ export default function Home(): JSX.Element {
               className="text-slate-600 text-lg"
               target="_blank"
               rel="noreferrer"
-              href="https://instagram.com/"
+              href="https://www.instagram.com/m.h.manasseh"
             >
               Nailsbysalma
             </a>
@@ -97,7 +97,7 @@ export default function Home(): JSX.Element {
             </svg>
             <a
               className="text-slate-600 text-lg"
-              href="https://tiktok.com/"
+              href="https://www.tiktok.com/@nailsbysalma"
               target="_blank"
             >
               Nailsbysalma
@@ -173,7 +173,7 @@ export default function Home(): JSX.Element {
               WhatsApp
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/m.h.manasseh"
               target="_blank"
               rel="noreferrer"
               className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
@@ -382,7 +382,7 @@ export default function Home(): JSX.Element {
               WhatsApp
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/m.h.manasseh"
               target="_blank"
               rel="noreferrer"
               className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
