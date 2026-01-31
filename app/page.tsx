@@ -7,109 +7,91 @@ export default function Home(): JSX.Element {
     {
       id: 1,
       title: "Long nails",
-      description: "Elegant Extended Acrylics",
       imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.16 AM.jpeg",
     },
     {
       id: 2,
       title: "Medium nails",
-      description: "Botanical Bloom",
       imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.23.58 AM.jpeg",
     },
     {
       id: 3,
       title: "Short nails",
-      description: "Chic & Minimal",
       imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.09.31 AM.jpeg",
     },
     {
       id: 4,
       title: "Long nails",
-      description: "Glamorous Chrome Extensions",
       imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.17 AM.jpeg",
     },
     {
       id: 5,
       title: "Medium nails",
-      description: "Shiny metallic finishes",
       imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.23.59 AM (1).jpeg",
     },
     {
       id: 6,
       title: "Short nails",
-      description: "Simple, clean look",
       imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.09.32 AM.jpeg",
     },
     {
       id: 7,
       title: "toes",
-      description: "Bold pattern design",
       imageUrl: "toes/WhatsApp Image 2026-01-08 at 9.30.30 AM.jpeg",
     },
     {
       id: 8,
       title: "Long nails",
-      description: "Sharp, sophisticated style",
       imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.18 AM.jpeg",
     },
     {
       id: 9,
       title: "Medium nails",
-      description: "Botanical Bloom",
       imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.23.59 AM (2).jpeg",
     },
     {
       id: 10,
       title: "Short nails",
-      description: "Nude Perfection",
       imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.09.33 AM.jpeg",
     },
     {
       id: 11,
       title: "Long nails",
-      description: "Decorated long nails",
       imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.28 AM (1).jpeg",
     },
     {
       id: 12,
       title: "Medium nails",
-      description: "Diamond-Studded Elegance",
       imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.23.59 AM.jpeg",
     },
     {
       id: 13,
       title: "Short nails",
-      description: "Sparkle & Shine",
       imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.20.40 AM.jpeg",
     },
     {
       id: 14,
       title: "toes",
-      description: "Sandy, tropical theme",
       imageUrl: "toes/WhatsApp Image 2026-01-08 at 9.31.01 AM.jpeg",
     },
     {
       id: 15,
       title: "Long nails",
-      description: "Mystique Ombré Extensions",
       imageUrl: "long_nails/WhatsApp Image 2026-01-08 at 9.28.28 AM.jpeg",
     },
     {
       id: 16,
       title: "Medium nails",
-      description: "Nature-inspired nail art",
       imageUrl: "medium_nails/WhatsApp Image 2026-01-08 at 9.24.00 AM.jpeg",
     },
     {
       id: 17,
       title: "Short nails",
-      description: "Natural, elegant shade",
       imageUrl: "short_nails/WhatsApp Image 2026-01-08 at 9.20.46 AM.jpeg",
     },
     {
       id: 18,
       title: "toes",
-      description: "Summer Vibes Pedicure",
       imageUrl: "toes/WhatsApp Image 2026-01-08 at 9.31.04 AM.jpeg",
     },
   ]);
@@ -162,9 +144,7 @@ export default function Home(): JSX.Element {
           </div>
         </div>
 
-        <p className="text-slate-500 text-lg">
-          Licensed Private NailTech Location Algonquin IL
-        </p>
+        <p className="text-slate-500 text-lg">Private nail tech – Kilifi </p>
       </header>
 
       {/* Meet Your Nail Tech Section */}
@@ -188,33 +168,30 @@ export default function Home(): JSX.Element {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-shrink-0">
               <div className="w-48 h-48 rounded-full bg-gradient-to-br from-pink-100 to-pink-200 flex items-center justify-center overflow-hidden shadow-lg">
-               
-                  <img
-                    src="WhatsApp Image 2026-01-08 at 9.59.23 AM.jpeg"
-                    alt="Me"
-                    className="w-full h-full object-cover"
-                  />
-        
+                <img
+                  src="WhatsApp Image 2026-01-31 at 1.16.49 PM.jpeg"
+                  alt="Me"
+                  className="rotate-270 object-[0pt_-10pt] "
+                />
               </div>
             </div>
 
             <div className="flex-1 text-center md:text-left">
               <p className="text-slate-700 text-lg leading-relaxed mb-4">
-                Hi I'm Salma! I am a private home based Licensed nail tech
-                located in Algonquin IL. Doing nails is my passion and my goal
-                is to make every person who sits in my chair feel beautiful and
-                confident with their nails!
+                Hi, I`m Salma. I am a private homebased nail-tech located in
+                Kilifi- St.Thomas . <br />
+                Doing nails is my passion and my aim is to make every person who
+                sits at my chair feel special, beautiful and confident with
+                their nails.
               </p>
 
               <p className="text-slate-600 text-sm">
-                I provide a clean comfortable space with sanitized items for
-                every client, large variety of colors and nail charms as well as
-                high quality products.
+                Looking forward to seeing you!
               </p>
             </div>
           </div>
 
-          <div className="flex flex-col p-8 sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col p-8 sm:flex-row gap-4 text-center justify-center">
             <a
               href="tel:+254794548718"
               className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full font-semibold transition-colors shadow-md hover:shadow-lg"
@@ -259,7 +236,7 @@ export default function Home(): JSX.Element {
             </span>
           </div>
           <p className="text-slate-600 mt-4">
-            Swipe to see my latest nail designs
+            Swipe to see some of my nail designs
           </p>
         </div>
 
@@ -278,13 +255,12 @@ export default function Home(): JSX.Element {
                   <img
                     src={image.imageUrl}
                     alt={image.title}
-                    className="w-full h-full object-cover"
+                    className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                     <h3 className="font-semibold text-white mb-1">
                       {image.title}
                     </h3>
-                    <p className="text-sm text-gray-200">{image.description}</p>
                   </div>
                 </div>
               </div>
@@ -317,7 +293,7 @@ export default function Home(): JSX.Element {
             </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Payment Policy */}
             <div className="text-center">
               <div className="w-20 h-20 mx-auto mb-4 bg-pink-50 rounded-full flex items-center justify-center border-2 border-pink-200">
@@ -331,10 +307,11 @@ export default function Home(): JSX.Element {
               </div>
               <h3 className="text-xl font-bold text-slate-700 mb-2">PAYMENT</h3>
               <div className="text-sm text-slate-600 space-y-1">
-                <p>$15 non-refundable</p>
-                <p>deposit is required.</p>
-                <p>Remaining balance in</p>
-                <p>person must be paid</p>
+                <p>
+                  Payment is expected once the services is complete, you are not
+                  required to pay a deposit fee however it is encouraged in
+                  order to secure your spot
+                </p>
               </div>
             </div>
 
@@ -350,40 +327,17 @@ export default function Home(): JSX.Element {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-slate-700 mb-2">
-                CANCELLATION /
-              </h3>
-              <h3 className="text-xl font-bold text-slate-700 mb-2">
-                NO SHOWS
+                CANCELLATION / NO SHOWS
               </h3>
               <div className="text-sm text-slate-600 space-y-1">
-                <p>No shows or same</p>
-                <p>day cancellations will</p>
-                <p>be charged a fee and</p>
-                <p>forfeit deposit</p>
-              </div>
-            </div>
-
-            {/* Late Arrival Policy */}
-            <div className="text-center">
-              <div className="w-20 h-20 mx-auto mb-4 bg-pink-50 rounded-full flex items-center justify-center border-2 border-pink-200">
-                <svg
-                  className="w-10 h-10 text-pink-600"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-slate-700 mb-2">
-                LATE ARRIVAL
-              </h3>
-              <div className="text-sm text-slate-600 space-y-1">
-                <p>10 min grace period, after 10</p>
-                <p>min there is a $10 fee but at 15</p>
-                <p>min your appt. is cancelled &</p>
-                <p>you will be forfeited the $25 fee</p>
-                <p>Check time destination & set</p>
-                <p>alarms to arrive on time</p>
+                <p>
+                  These break my heart especially when there is no prior
+                  communication.
+                </p>
+                <p>
+                  Back to back cancellations will result to no further booking
+                  allowed.
+                </p>
               </div>
             </div>
 
@@ -400,13 +354,14 @@ export default function Home(): JSX.Element {
               </div>
               <h3 className="text-xl font-bold text-slate-700 mb-2">SAFETY</h3>
               <div className="text-sm text-slate-600 space-y-1">
-                <p>I do not work on open wounds/</p>
-                <p>infected nails.</p>
-                <p>Please come with bare nails.</p>
-                <p>No polish or fake nails unless</p>
-                <p>you select a refill on my work.</p>
-                <p>Address is confidential, it</p>
-                <p>disclosed legal action will take</p>
+                <p>
+                  Please keep address confidential once shared after booking,to
+                  ensure both my safety and yours
+                </p>
+                <p>
+                  I do not work on open wounds or infected nails. Trust me this
+                  is for your own good.
+                </p>
               </div>
             </div>
           </div>
@@ -446,6 +401,265 @@ export default function Home(): JSX.Element {
             >
               Instagram DM
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing & Pro Tips Section */}
+      <section className="max-w-6xl mx-auto px-6 pb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Pricing */}
+          <div className="bg-white/80 backdrop-blur-sm border-2 border-pink-200 rounded-3xl p-8 shadow-lg">
+            <div className="flex items-center gap-4 mb-6 justify-center">
+              <h2
+                className="text-3xl font-bold text-slate-700"
+                style={{ fontFamily: "serif" }}
+              >
+                PRICING
+              </h2>
+              <span
+                className="text-3xl font-script text-pink-600"
+                style={{ fontFamily: "Dancing Script, cursive" }}
+              >
+                Guide
+              </span>
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
+                <span className="text-slate-700 font-semibold">
+                  Gel Soak off
+                </span>
+                <span className="text-pink-600 font-bold">KSh 100</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
+                <span className="text-slate-700 font-semibold">Plain gel</span>
+                <span className="text-pink-600 font-bold">KSh 400</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
+                <span className="text-slate-700 font-semibold">
+                  Gel on toes
+                </span>
+                <span className="text-pink-600 font-bold">KSh 400</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
+                <span className="text-slate-700 font-semibold">
+                  Tips and gel
+                </span>
+                <span className="text-pink-600 font-bold">KSh 500</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
+                <span className="text-slate-700 font-semibold">
+                  French Tips
+                </span>
+                <span className="text-pink-600 font-bold">KSh 800</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
+                <span className="text-slate-700 font-semibold">
+                  Gum gel / Builder gel
+                </span>
+                <span className="text-pink-600 font-bold">KSh 1,000</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
+                <span className="text-slate-700 font-semibold">
+                  Art per nail
+                </span>
+                <span className="text-pink-600 font-bold">KSh 50</span>
+              </div>
+            </div>
+
+            <p className="text-sm text-slate-500 text-center mt-6 italic">
+              *Prices may vary based on design complexity
+            </p>
+          </div>
+
+          {/* Pro Tips */}
+          <div className="bg-white/80 backdrop-blur-sm border-2 border-pink-200 rounded-3xl p-8 shadow-lg">
+            <div className="flex items-center gap-4 mb-6 justify-center">
+              <h2
+                className="text-3xl font-bold text-slate-700"
+                style={{ fontFamily: "serif" }}
+              >
+                PRO
+              </h2>
+              <span
+                className="text-3xl font-script text-pink-600"
+                style={{ fontFamily: "Dancing Script, cursive" }}
+              >
+                Tips
+              </span>
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center mt-1">
+                  <svg
+                    className="w-5 h-5 text-pink-600"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-slate-700 mb-1">Inspos</h4>
+                  <p className="text-sm text-slate-600">
+                    Have an inspo, I love knowing what we are creating{" "}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center mt-1">
+                  <svg
+                    className="w-5 h-5 text-pink-600"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-slate-700 mb-1">
+                    Cancelation
+                  </h4>
+                  <p className="text-sm text-slate-600">
+                    If you need to cancel an appointment please cancel 24 hours
+                    prior
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center mt-1">
+                  <svg
+                    className="w-5 h-5 text-pink-600"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-slate-700 mb-1">
+                    Timely arrivals
+                  </h4>
+                  <p className="text-sm text-slate-600">
+                    Check time destination and set reminders to ensure you
+                    arrive on time
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center mt-1">
+                  <svg
+                    className="w-5 h-5 text-pink-600"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-slate-700 mb-1">
+                    Soak off
+                  </h4>
+                  <p className="text-sm text-slate-600">
+                    Please state ahead of time if you need a soak off to ensure
+                    easy planning
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center mt-1">
+                  <svg
+                    className="w-5 h-5 text-pink-600"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-slate-700 mb-1">
+                    Extra Guests
+                  </h4>
+                  <p className="text-sm text-slate-600">
+                    Please ask before bringing any extra guests
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center mt-1">
+                  <svg
+                    className="w-5 h-5 text-pink-600"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-slate-700 mb-1">
+                    Silent Appointments
+                  </h4>
+                  <p className="text-sm text-slate-600">
+                    Please don’t hesitate to as for a silent appointment if you
+                    need some quiet time. I understand.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center mt-1">
+                  <svg
+                    className="w-5 h-5 text-pink-600"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-slate-700 mb-1">
+                    Allergies
+                  </h4>
+                  <p className="text-sm text-slate-600">
+                    Let me know if you are allergic to any product to ensure no
+                    harm is done
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
