@@ -434,7 +434,7 @@ export default function Home(): JSX.Element {
               </div>
               <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
                 <span className="text-slate-700 font-semibold">Plain gel</span>
-                <span className="text-pink-600 font-bold">KSh 400</span>
+                <span className="text-pink-600 font-bold">KSh 500</span>
               </div>
               <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
                 <span className="text-slate-700 font-semibold">
