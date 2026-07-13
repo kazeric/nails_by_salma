@@ -430,7 +430,7 @@ export default function Home(): JSX.Element {
                 <span className="text-slate-700 font-semibold">
                   Gel Soak off
                 </span>
-                <span className="text-pink-600 font-bold">KSh 100</span>
+                <span className="text-pink-600 font-bold">KSh 200</span>
               </div>
               <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
                 <span className="text-slate-700 font-semibold">Plain gel</span>
@@ -446,7 +446,7 @@ export default function Home(): JSX.Element {
                 <span className="text-slate-700 font-semibold">
                   Tips and gel
                 </span>
-                <span className="text-pink-600 font-bold">KSh 500</span>
+                <span className="text-pink-600 font-bold">KSh 700</span>
               </div>
               <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
                 <span className="text-slate-700 font-semibold">
@@ -458,7 +458,7 @@ export default function Home(): JSX.Element {
                 <span className="text-slate-700 font-semibold">
                   Gum gel / Builder gel
                 </span>
-                <span className="text-pink-600 font-bold">KSh 1,000</span>
+                <span className="text-pink-600 font-bold">KSh 1,500</span>
               </div>
               <div className="flex justify-between items-center p-4 bg-pink-50 rounded-xl">
                 <span className="text-slate-700 font-semibold">
